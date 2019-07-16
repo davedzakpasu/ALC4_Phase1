@@ -8,6 +8,7 @@
     <string name="title_activity_profile">My Profile</string>
     <string name="avatar">avatar</string>
     <string name="txt_profile_name">David Dzakpasu</string>
+    <string name="txt_slack_username_value">\@Dave7</string>
     <string name="txt_track">TRACK</string>
     <string name="txt_country">COUNTRY</string>
     <string name="txt_email">E-MAIL</string>

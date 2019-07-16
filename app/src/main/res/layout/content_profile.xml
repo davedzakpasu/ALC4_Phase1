@@ -66,8 +66,8 @@
         android:fontFamily="@font/fredoka_one"
         android:text="@string/txt_track"
         android:textAppearance="@style/TextAppearance.AppCompat.Medium"
-        android:textColor="@android:color/black"
-        android:textSize="18sp"
+        android:textColor="@android:color/darker_gray"
+        android:textSize="16sp"
         app:layout_constraintStart_toStartOf="@+id/view_separator"
         app:layout_constraintTop_toBottomOf="@+id/avatar_bg" />
 
@@ -104,8 +104,8 @@
         android:fontFamily="@font/fredoka_one"
         android:text="@string/txt_country"
         android:textAppearance="@style/TextAppearance.AppCompat.Medium"
-        android:textColor="@android:color/black"
-        android:textSize="18sp"
+        android:textColor="@android:color/darker_gray"
+        android:textSize="16sp"
         app:layout_constraintStart_toStartOf="@+id/txt_track"
         app:layout_constraintTop_toBottomOf="@+id/txt_track_value" />
 
@@ -142,8 +142,8 @@
         android:fontFamily="@font/fredoka_one"
         android:text="@string/txt_email"
         android:textAppearance="@style/TextAppearance.AppCompat.Medium"
-        android:textColor="@android:color/black"
-        android:textSize="18sp"
+        android:textColor="@android:color/darker_gray"
+        android:textSize="16sp"
         app:layout_constraintStart_toStartOf="@+id/txt_country"
         app:layout_constraintTop_toBottomOf="@+id/txt_coutry_value" />
 
@@ -151,6 +151,7 @@
         android:id="@+id/txt_email_value"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
         android:fontFamily="@font/fredoka_one"
         android:text="@string/txt_email_value"
         android:textAppearance="@style/TextAppearance.AppCompat.Medium"
@@ -179,8 +180,8 @@
         android:fontFamily="@font/fredoka_one"
         android:text="@string/txt_phone"
         android:textAppearance="@style/TextAppearance.AppCompat.Medium"
-        android:textColor="@android:color/black"
-        android:textSize="18sp"
+        android:textColor="@android:color/darker_gray"
+        android:textSize="16sp"
         app:layout_constraintStart_toStartOf="@+id/txt_email"
         app:layout_constraintTop_toBottomOf="@+id/txt_email_value" />
 
@@ -217,8 +218,8 @@
         android:fontFamily="@font/fredoka_one"
         android:text="@string/txt_slack_username"
         android:textAppearance="@style/TextAppearance.AppCompat.Medium"
-        android:textColor="@android:color/black"
-        android:textSize="18sp"
+        android:textColor="@android:color/darker_gray"
+        android:textSize="16sp"
         app:layout_constraintStart_toStartOf="@+id/txt_phone"
         app:layout_constraintTop_toBottomOf="@+id/txt_phone_value" />
 
@@ -228,7 +229,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
         android:fontFamily="@font/fredoka_one"
-        android:text="@string/txt_profile_name"
+        android:text="@string/txt_slack_username_value"
         android:textAppearance="@style/TextAppearance.AppCompat.Medium"
         android:textColor="@color/design_default_color_primary_dark"
         android:textSize="24sp"
